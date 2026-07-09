@@ -15,11 +15,11 @@ jobs:
       uses: actions/checkout@v4
 
     # 2. جاوا (JDK) سیٹ اپ کرنا جو اینڈرائیڈ بلڈ کے لیے ضروری ہے
-    - name: Set up JDK 17
+    - name: Set up JDK 21
       uses: actions/setup-java@v4
       with:
         distribution: 'zulu'
-        java-version: '17'
+        java-version: '21'
 
     # 3. گریڈل (Gradle) کو کیشے اور سیٹ اپ کرنا تاکہ بلڈ تیز ہو
     - name: Setup Gradle
