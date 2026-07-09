@@ -3,7 +3,7 @@
   "appName": "WebViewApp",
   "webDir": "www",
   "server": {
-    "url": "https://google.com",
+    "url": "https://youtube.com/shorts",
     "cleartext": true,
     "allowNavigation": ["*"]
   }
