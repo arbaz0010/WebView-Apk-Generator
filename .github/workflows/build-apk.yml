@@ -28,7 +28,7 @@ jobs:
     # 4. اینڈرائیڈ پروجیکٹ کو بلڈ کرنا (APK بنانا)
     # نوٹ: اگر یہ پروجیکٹ نوڈ جے ایس (Node.js) بیسڈ ہے تو کمنٹس ہٹا کر npm رن کریں
     - name: Build Debug APK
-    working-directory: ./android
+      working-directory: ./android
       run: |
         chmod +x gradlew
         ./gradlew assembleDebug
