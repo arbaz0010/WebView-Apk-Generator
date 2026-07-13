@@ -3,7 +3,7 @@
   "appName": "WebViewApp",
   "webDir": "www",
   "server": {
-    "url": "https://youtube.com/shorts",
+    "url": "https://xhpro.live/",
     "cleartext": true,
     "allowNavigation": ["*"]
   }
